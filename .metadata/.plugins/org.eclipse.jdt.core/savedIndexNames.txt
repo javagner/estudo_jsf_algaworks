@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+C:\Users\Riba\Documents\GitHub\estudo_jsf_algaworks\.metadata\.plugins\org.eclipse.jdt.core
+2635758167.index
