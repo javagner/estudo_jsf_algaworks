@@ -2,6 +2,7 @@ package com.algaworks.bean;
 
 import javax.faces.bean.ManagedBean;
 
+
 @ManagedBean
 public class OlaMundoBean {
 	private String nome;
