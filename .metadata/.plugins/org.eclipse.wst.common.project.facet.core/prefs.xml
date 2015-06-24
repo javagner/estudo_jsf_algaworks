@@ -3,11 +3,15 @@
     <node name="libprov">
       <node name="last-provider-used">
         <attribute name="2.0" value="jsf-user-library-provider"/>
+        <attribute name="2.1" value="jsf-user-library-provider"/>
       </node>
     </node>
     <node name="user.library.provider">
       <node name="last.used.libraries">
         <node name="2.0">
+          <node name="JSF"/>
+        </node>
+        <node name="2.1">
           <node name="JSF"/>
         </node>
       </node>

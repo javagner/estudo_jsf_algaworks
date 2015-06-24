@@ -1,0 +1,5 @@
+package com.algaworks.bean;
+
+public class OlaMundoBean {
+
+}

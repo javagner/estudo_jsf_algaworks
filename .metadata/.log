@@ -20,3 +20,15 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.server.core 4 0 2015-06-24 12:08:08.551
+!MESSAGE Could not launch in profiling mode because no profilers are configured.
+
+!ENTRY org.eclipse.jst.server.core 4 0 2015-06-24 12:11:03.215
+!MESSAGE Could not launch in profiling mode because no profilers are configured.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-06-24 12:48:23.118
+!MESSAGE Could not delete C:\Users\Riba\Documents\GitHub\estudo_jsf_algaworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Codigo_2_3\WEB-INF\lib\javax.faces-2.1.24.jar. May be locked by another process.
+
+!ENTRY org.eclipse.jst.server.core 4 0 2015-06-24 09:41:00.866
+!MESSAGE Could not launch in profiling mode because no profilers are configured.
