@@ -35,3 +35,23 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.equinox.security 1 0 2015-06-24 09:55:09.790
 !MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-06-24 10:16:34.908
+!MESSAGE Server Tomcat v8.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-06-24 10:17:33.641
+!MESSAGE Server Tomcat v8.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.egit.ui 4 0 2015-06-24 10:23:46.478
+!MESSAGE An internal error occurred
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Entry not found by path: .metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/Codigo_2_6/SESSIONS.ser
+	at org.eclipse.jgit.api.CommitCommand.createTemporaryIndex(CommitCommand.java:432)
+	at org.eclipse.jgit.api.CommitCommand.call(CommitCommand.java:203)
+	at org.eclipse.egit.core.op.CommitOperation.commit(CommitOperation.java:243)
+	at org.eclipse.egit.core.op.CommitOperation.access$5(CommitOperation.java:232)
+	at org.eclipse.egit.core.op.CommitOperation$1.run(CommitOperation.java:196)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.egit.core.op.CommitOperation.execute(CommitOperation.java:206)
+	at org.eclipse.egit.ui.internal.commit.CommitJob.run(CommitJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
