@@ -32,3 +32,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jst.server.core 4 0 2015-06-24 09:41:00.866
 !MESSAGE Could not launch in profiling mode because no profilers are configured.
+
+!ENTRY org.eclipse.equinox.security 1 0 2015-06-24 09:55:09.790
+!MESSAGE New keyring password generated. 

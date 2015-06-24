@@ -1,0 +1,34 @@
+package com.algaworks.bean;
+
+public class OlaMundoBean {
+	private String nome;
+	private String texto;
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String exibirResultado() {
+		if (this.nome != null) {
+			this.texto = "Seu nome é: "+this.nome.toUpperCase();
+		}
+		return "OlaMundo.xhtml";
+	}
+	
+	public void limparTexto(){
+		this.texto = "";
+		this.nome = "";
+	}
+
+	public String getTexto() {
+		return texto;
+	}
+
+	public void setTexto(String texto) {
+		this.texto = texto;
+	}
+}
